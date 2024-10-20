@@ -20,6 +20,7 @@
         a.classList.add('active');
     }
 });
+
 let p = document.querySelector('#head p');
 let i = 0;
 let text = "Discover the best food & drinks in Delhi NCR";
@@ -33,7 +34,7 @@ function typeWriter() {
 typeWriter();
 
 let box = document.querySelectorAll('.box');
-box.forEach(i => {
+box.forEach((i) => {
 i.addEventListener('mouseover', function (){
     i.classList.add('visible');
 });
@@ -41,7 +42,6 @@ i.addEventListener('mouseover', function (){
         i.classList.remove('visible');
 });
 });
-
 
  let cards = document.querySelectorAll('.customer-card .card-inner');
  cards.forEach(i => {
